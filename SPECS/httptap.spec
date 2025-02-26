@@ -3,7 +3,7 @@
 %global gh_user monasticacademy
 
 Name:           httptap
-Version:        0.0.8
+Version:        0.1.0
 Release:        1%{?dist}
 Summary:        View HTTP/HTTPS requests made by any Linux program
 Group:          Applications/System
@@ -30,5 +30,8 @@ install -Dm0755 %{_builddir}/bin/%{name} %{buildroot}%{_bindir}/%{name}
 %doc LICENSE README.md
 
 %changelog
+* Thu Feb 27 2025 Jamie Curnow <jc@jc21.com> 0.1.0-1
+- v0.1.0
+
 * Thu Feb 6 2025 Jamie Curnow <jc@jc21.com> 0.0.8-1
 - v0.0.8
